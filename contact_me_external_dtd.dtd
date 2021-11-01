@@ -1,0 +1,7 @@
+<!ELEMENT contactlist (fullname, address, mno, email)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT address (add1, add2)>
+<!ELEMENT add1 (#PCDATA)>
+<!ELEMENT add2 (#PCDATA)>
+<!ELEMENT mno (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

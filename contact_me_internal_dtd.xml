@@ -1,0 +1,20 @@
+<?xml version = "1.0" ?>
+<!DOCTYPE contactlist[
+<!ELEMENT contactlist (fullname, address, mno, email)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT address (add1, add2)>
+<!ELEMENT add1 (#PCDATA)>
+<!ELEMENT add2 (#PCDATA)>
+<!ELEMENT mno (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+
+<contactlist>
+    <fullname> Nihal Priyadarshi </fullname>
+    <address>
+        <add1> Patna </add1>
+        <add2> Bihar </add2>
+    </address>
+    <mno> 9999999999 </mno>
+    <email> nihalpriyadarshi1999@gmail.com </email>
+</contactlist>
